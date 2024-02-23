@@ -1,2 +1,28 @@
 # Atividades-BD
 Atividades de Sala Banco de Dados Relacional
+
+postgres=# create database bd_sistema_bancario;
+CREATE DATABASE
+postgres=# \c
+You are now connected to database "postgres" as user "postgres".
+postgres=# create table cliente_tabela1(coluna1 char, coluna2 char);
+CREATE TABLE
+postgres=# create table cliente_tabela2(coluna1 char, coluna2 char);
+CREATE TABLE
+postgres=# create table cliente_tabele3(coluna1 char, coluna2 char);
+CREATE TABLE
+postgres=# create table cliente_tabele4(coluna1 char, coluna2 char);
+CREATE TABLE
+postgres=# create table cliente_tabele5(coluna1 char, coluna2 char);
+CREATE TABLE
+
+postgres=# \dt
+              List of relations
+ Schema |      Name       | Type  |  Owner
+--------+-----------------+-------+----------
+ public | cliente_tabela1 | table | postgres
+ public | cliente_tabela2 | table | postgres
+ public | cliente_tabele3 | table | postgres
+ public | cliente_tabele4 | table | postgres
+ public | cliente_tabele5 | table | postgres
+(5 rows)
